@@ -22,7 +22,7 @@ namespace Merchello.Tests.Stripe.Integration.TestHelpers
         protected IGatewayProviderService GatewayProviderService;
         protected StripePaymentGatewayProvider Provider;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void FixtureSetup()
         {
             SqlSyntaxProviderTestHelper.EstablishSqlSyntax();

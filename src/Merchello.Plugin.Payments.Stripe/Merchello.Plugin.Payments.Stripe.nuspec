@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/alindgren/MerchelloStripeProviderblob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/alindgren/MerchelloStripeProvider</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &amp;copy; 2015 Alex Lindgren</copyright>
+    <tags>merchello stripe umbraco</tags>
+    <dependencies>
+      <dependency id="UmbracoCms" version="[7.3.0,8.0.0)" />
+      <dependency id="Merchello.Core" version="[2.0.0,)" />
+    </dependencies>
+    <contentFiles>
+      <files include="App_Plugins\Merchello.Stripe\*.*" buildAction="Content" />
+      <files include="App_Plugins\Merchello.Stripe\package.manifest" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>
